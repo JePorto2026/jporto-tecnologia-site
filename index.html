@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JPorto Tecnologia</title>
 
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* HEADER */
+header {
+    background: #0d1b2a;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+header a {
+    background: #25d366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1581091012184-7c8f1c1a58c3');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 40px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    max-width: 700px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: #1d4ed8;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+/* SEÇÃO */
+.section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>JPorto Tecnologia</h1>
+    <a href="https://wa.me/5547988692275">Fale no WhatsApp</a>
+</header>
+
+<section class="hero">
+    <h2>Suporte e Gestão de TI para Empresas em Joinville e Região</h2>
+    <p>Infraestrutura, redes, segurança e monitoramento profissional para sua empresa funcionar sem interrupções.</p>
+    <a class="btn" href="https://wa.me/5547988692275">Solicitar Diagnóstico Gratuito</a>
+</section>
+
+<section class="section">
+    <h2>Nossas Soluções</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Suporte Técnico</h3>
+            <p>Atendimento rápido remoto e presencial.</p>
+        </div>
+        <div class="card">
+            <h3>Infraestrutura e Redes</h3>
+            <p>Redes corporativas seguras e organizadas.</p>
+        </div>
+        <div class="card">
+            <h3>Segurança da Informação</h3>
+            <p>Proteção de dados e backup empresarial.</p>
+        </div>
+        <div class="card">
+            <h3>Monitoramento 24/7</h3>
+            <p>Controle contínuo dos sistemas da sua empresa.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
